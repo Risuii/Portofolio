@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+<div id="top"></div>
+
+<!--===== HEADER =====-->
+
+ <div class="header">
+     <div class="header-logo"><a href="#top">Portofolio</a></div>
+     <div class="header-list">
+        <ul>
+            <li><a href="#Contact-me">Contact Me</a></li>
+            <li><a href="#Experiences">Experiences</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#About-Me">About Me</a></li>
+            <li onclick="setDarkMode(true)"><span>Dark Mode</span></li>
+            <li><img src="https://img.icons8.com/doodle/50/000000/sun.png" onclick="setDarkMode(false)"/></li>
+        </ul>
+     </div>
+ </div>
+
+ <!--===== MAIN =====-->
+
+ <div class="main">
+     <p id="Portofolio">Hi,</p>
+     <p>I'am <span>Faris Fahmi</span></p>
+     <p>Student of Foundation Program</p>
+ </div>
+
+ <!--===== ICON =====-->
+ 
+ <div class="home-social">
+     <a href="https://www.linkedin.com/in/faris-fahmi-360017185/" class="home-social-icon"><img src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png"/></a>
+     <a href="https://github.com/Risuii" class="home-social-icon"><img src="https://img.icons8.com/doodle/48/000000/github--v1.png"/></a>
+     <a href="https://www.facebook.com/Risuii/" class="home-social-icon"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png"/></a>
+     <a href="https://www.instagram.com/frsfhm/" class="home-social-icon"><img src="https://img.icons8.com/doodle/48/000000/instagram-new.png"/></a>
+ </div>
+
+ <!--===== About Me =====-->
+
+ <div id="About-Me"></div>
+ <div class="content" id="About-Me">
+     <h2><span>About Me</span></h2>
+     <img src="foto.jpeg">
+     <p>I'am <span><a href="#Portofolio">Faris Fahmi</a></span> <br><br>I'am 24 years old and i was born 9 April 1997 <br>I am graduated from tarumanagara university majoring law <br>I love to explore about cars, technology, and Esport </p>
+ </div>
+
+ <!--===== Skills =====-->
+ 
+ <div class="content2" id="Skills">
+     <h2><span>Skills</span></h2>
+ </div>
+ 
+ <div class="content22">
+     <div class="content22-icon">
+        <img src="https://img.icons8.com/dusk/128/000000/html-5.png"/>
+         <p class="text-contents">HTML (Beginner)</p>
+        </div>
+     <div class="content22-icon">
+        <img src="https://img.icons8.com/dusk/128/000000/css3.png"/>
+         <p class="text-contents">CSS (Beginner)</p>
+     </div>
+     <div class="content22-icon">
+        <img src="https://img.icons8.com/dusk/128/000000/javascript.png"/>
+        <p class="text-contents">Java Script (Beginner)</p>
+    </div>
+    <div class="content22-icon">
+        <img src="https://img.icons8.com/dusk/128/000000/adobe-premiere-pro.png"/>
+        <p class="text-contents">Adobe Premiere Pro (Beginner)</p>
+    </div>
+     <div class="content22-icon">
+        <img src="https://img.icons8.com/officel/128/000000/law.png"/>
+         <p class="text-contents">Law (advance)</p>
+     </div>
+ </div>
+
+ <!--===== Experiences =====-->
+
+ <div class="content3" id="Experiences">
+     <h2>Experiences</h2>
+     <div class="content3-1">
+        <a href="http://untar.ac.id/"><img src="logo untar.png"></a>
+        <p>Internship as a Personalia Staff on Tarumanagara University for 1 month from 19 August until 19 September</p>
+     </div>
+     <div class="content3-2">
+        <a href="https://www.instagram.com/kodeinisiatif/?hl=en"><img src="kode inisiatif.png"></a>
+         <p>Internship as a Enumerator on Kode Inisiatif for 2 month from February 2021 until April 2021</p>
+     </div>
+ </div>
+
+ <div id="Contact-Me"></div>
+
+ <!--===== Contact Me =====-->
+
+<div class="contact-form" id="Contact-me">
+    <img src="bear.png">
+    <h2 class="contact-title">Contact</h2>
+    <p>Email<span>*</span><span class="text-border-message">Send me a message</span></p>
+    <input>
+    <p>Nomor Handphone/Whatsapp<span>*</span></p>
+    <input>
+    <p>Pesan</p>
+    <textarea></textarea>
+    <p>Tanda (<span>*</span>) wajib di isi.</p>
+    <input class="contact-submit" type="submit" value="Kirim">
+</div>
+
+<!--===== Footer =====-->
+
+<div class="footer">
+    <p><a href="#top">Portofolio</a></p>
+    <div class="footer-list">
+        <ul>
+            <li><a href="#About-Me">About Me</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Experiences">Experiences</a></li>
+            <li><a href="#Contact-Me">Contact Me</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--===== Scroll Reveal Animation =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="Java.js"></script>
+</body>
+</html>
