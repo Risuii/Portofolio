@@ -1,0 +1,292 @@
+
+body {
+    font-family: Snell Roundhand, cursive;
+    margin-top: 100px;
+}
+
+#top {
+    position: absolute;
+    top: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+span a {
+    text-decoration: none;
+    color: #FF0000; 
+}
+
+footer p, a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #cc4444;
+    height: 65px;
+    width: 100%;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo {
+    float: left;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding: 20px 40px;
+
+}
+
+.header-list {
+    padding-top: 20px;
+}
+
+.header-list li {
+    float: right;
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+}
+
+.header span {
+    color: #2F4F4F;
+}
+
+/* MAIN */
+
+.main p {
+    text-align: left;
+    margin : 30px 80px;
+    font-size: 80px;
+}
+
+.main span {
+    color: #cc4444;
+}
+
+.main img{
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+/* ICON */
+
+.home-social a {
+    margin: 30px;
+    margin-left: 80px;
+}
+
+/* About Me */
+
+#About-Me {
+    top: 0;
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content span {
+    color: #FF0000;
+}
+
+.content img {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.content p {
+    float: left;
+    padding-left: 20px;
+}
+
+.content span {
+    color: #FF0000;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+/* Skills */
+
+.content2 {
+    margin-top: 500px;
+    padding-top: 10px;
+}
+
+.content2 h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+.content2 span {
+    color: #FF0000;
+}
+
+.content22-icon {
+    float: left;
+    margin-left: 10px;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #000080;
+}
+
+/* Experiences */
+
+
+.content3 {
+    margin-top: 700px;
+    padding-top: 100px;
+}
+
+.content3 h2 {
+    color: #FF0000;
+    text-align: center;
+}
+
+.content3 li {
+    float: left;
+    color: #000080;
+}
+
+.content3-1 {
+    width: 100%;
+    height: 100px;
+}
+
+.content3-1 img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.content3-1 p {
+    float: left;
+    padding-left: 135px;
+    padding-top: 50px;
+}
+
+.content3-2 {
+    margin-top: 40px;
+}
+
+.content3-2 img {
+    width: 200px;
+    height: 100px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.content3-2 p {
+    float: left;
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+/* Contact Me */
+
+.contact-form {
+    margin-top: 370px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.contact-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #FF0000;
+    padding-left: 300px;
+}
+
+.contact-form span {
+    color: #FF0000;
+}
+
+
+.contact-form img {
+    float: right;
+    width: 300px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.text-border-message {
+    border: 5px solid #00FF00;
+    margin-left: 800px;
+    padding: 5px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #cc4444;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer p {
+    float: left;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.footer-list li {
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+
+
+/* Dark Mode */
+
+#darkmode {
+    background: #000000;
+    color: #FFFFFF;
+}
